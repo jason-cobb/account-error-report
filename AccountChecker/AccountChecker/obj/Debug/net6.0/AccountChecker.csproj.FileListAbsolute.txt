@@ -1,0 +1,15 @@
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\bin\Debug\net6.0\AccountChecker.exe
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\bin\Debug\net6.0\AccountChecker.deps.json
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\bin\Debug\net6.0\AccountChecker.runtimeconfig.json
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\bin\Debug\net6.0\AccountChecker.dll
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\bin\Debug\net6.0\AccountChecker.pdb
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\AccountChecker.csproj.AssemblyReference.cache
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\AccountChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\AccountChecker.AssemblyInfoInputs.cache
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\AccountChecker.AssemblyInfo.cs
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\AccountChecker.csproj.CoreCompileInputs.cache
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\AccountChecker.dll
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\refint\AccountChecker.dll
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\AccountChecker.pdb
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\AccountChecker.genruntimeconfig.cache
+C:\Users\jason\source\repos\account-error-report\AccountChecker\AccountChecker\obj\Debug\net6.0\ref\AccountChecker.dll
