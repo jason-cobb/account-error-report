@@ -8,7 +8,8 @@ namespace AccountChecker
 {
     public class Account
     {
-        public string RecordNumber { get; set; }
+        public int LineNumber { get; set; }
+        public int RecordNumber { get; set; }
         public string AccountNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -16,7 +17,7 @@ namespace AccountChecker
         public string? AddressLine2 { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public string Amount { get; set; }
+        public double Amount { get; set; }
         public bool IsValid { get; set; }
         public List<string> Errors { get; set; }
 
@@ -24,6 +25,7 @@ namespace AccountChecker
         public Account()
         {
             Errors = new List<string>();
+            IsValid = true;
         }
     }
 }
