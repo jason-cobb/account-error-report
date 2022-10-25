@@ -46,8 +46,8 @@ internal class Program
                 else
                 {
 					account.IsValid = false;
-					account.Errors.Add("Record Number is required.");
-					account.Errors.Add($"Record Number value entered was '{recordNumber}'.");
+					account.Errors.Add("	Record Number is required.");
+					account.Errors.Add($"	Record Number value entered was '{recordNumber}'.");
 
 
 				}
@@ -61,8 +61,8 @@ internal class Program
 				else
 				{
 					account.IsValid = false;
-					account.Errors.Add("Account number is required");
-					account.Errors.Add($"Account number value entered was '{accountNumber}'.");
+					account.Errors.Add("	Account number is required");
+					account.Errors.Add($"	Account number value entered was '{accountNumber}'.");
 				}
 
 				string firstName = GetValue(lines[i], 14, 20);
@@ -74,7 +74,8 @@ internal class Program
 				else
 				{
 					account.IsValid = false;
-					account.Errors.Add("First name is required");
+					account.Errors.Add("	First name is required");
+					account.Errors.Add($"	First name value was '{firstName}'.");
 				}
 
 				string lastName = GetValue(lines[i], 34, 20);
@@ -86,8 +87,8 @@ internal class Program
 				else
 				{
 					account.IsValid = false;
-					account.Errors.Add("Last name is required");
-					account.Errors.Add($"Last name value was '{lastName}'.");
+					account.Errors.Add("	Last name is required");
+					account.Errors.Add($"	Last name value was '{lastName}'.");
 					
 				}
 
@@ -100,8 +101,8 @@ internal class Program
 				else
 				{
 					account.IsValid = false;
-					account.Errors.Add("Address is required");
-					account.Errors.Add($"Address value was '{addressLine1}'.");
+					account.Errors.Add("	Address is required");
+					account.Errors.Add($"	Address value was '{addressLine1}'.");
 				}
 
 				string city = GetValue(lines[i], 114, 20);
@@ -113,8 +114,8 @@ internal class Program
 				else
 				{
 					account.IsValid = false;
-					account.Errors.Add("City is required");
-					account.Errors.Add($"City value was '{city}'.");
+					account.Errors.Add("	City is required");
+					account.Errors.Add($"	City value was '{city}'.");
 				}
 
 				string state = GetValue(lines[i], 134, 2);
@@ -126,8 +127,8 @@ internal class Program
 				else
 				{
 					account.IsValid = false;
-					account.Errors.Add("State is required");
-					account.Errors.Add($"State value was '{state}'.");
+					account.Errors.Add("	State is required");
+					account.Errors.Add($"	State value was '{state}'.");
 				}
 				/*
 				string amount = GetValue(line, 136, 7);
@@ -152,8 +153,8 @@ internal class Program
 				{
 					account.IsValid = false;
 					
-					account.Errors.Add("Amount is invalid");
-					account.Errors.Add($"Amount value entered was an incorrect amount'{amount}'.");
+					account.Errors.Add("	Amount is invalid");
+					account.Errors.Add($"	Amount value entered was an incorrect amount'{amount}'.");
 					
 					
 
@@ -174,7 +175,7 @@ internal class Program
         var accountsWithErrors = accounts.Where(a => !a.IsValid).ToList();
 		foreach (var accountWithError in accountsWithErrors)
 		{
-			Console.WriteLine($"	Record number {accountWithError.LineNumber} had invalid entries in it.");
+			Console.WriteLine($"{accountWithError.LineNumber}. Record Number: {accountWithError.LineNumber} had invalid entries in it.");
 
 			foreach (var error in accountWithError.Errors)
 			{
